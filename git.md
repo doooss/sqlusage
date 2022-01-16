@@ -31,3 +31,15 @@ $ git remote remove origin
 ```
 $ git remote add origin https://github.com/<account>/<repository>
 ```
+
+## branch 
+
+```
+$ git branch -M <branch-name>
+$ git push -u origin <branch-name>
+```
+
+branch의 자료를 clone 하고 싶을경우
+```
+$ git clone -b {branch_name} --single-branch {저장소 URL}
+```
